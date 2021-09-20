@@ -1,0 +1,780 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Expert Landing</title>
+    <!-- FavIcon-->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./assets/images/favicon.png"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap style-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome style-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--Owl Carouse css-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!--AOS css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--Animate css-->
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <!-- Custom Style-->
+    <link rel="stylesheet" href="./css/checkbox.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- Navigation  -->
+      <div class="navbar-menu-wrapper">
+        <div class="container-fluid bignavbar">
+          <div class="max-width">
+            <div class="navbar-inner">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand mynavbar-brand" href="./index.html"
+                  ><img src="./assets/images/logo.png" alt=""
+                /></a>
+                <button
+                  class="navbar-toggler mytogglericon"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html#how_work"
+                        >How it works</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact-us.html"
+                        >Contact us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile-device Menu  -->
+        <div class="mobile-device">
+          <div class="topindex">
+            <div class="container-fluid">
+              <div class="max-width">
+                <div class="menudisplay">
+                  <div class="logo-hambarger row">
+                    <div class="logo col-md-6 col-sm-8 col-8">
+                      <a href="./index.html"
+                        ><img src="./assets/images/logo.png" alt=""
+                      /></a>
+                    </div>
+                    <div class="hambarger col-md-6 col-sm-4 col-4">
+                      <div class="hambarger-wrapper">
+                        <i
+                          id="barguricon"
+                          class="fa fa-bars"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          id="bargurhide"
+                          class="fa fa-bars"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mymenu" id="menus">
+            <ul>
+              <li>
+                <a class="myactive" href="./index.html">Home</a>
+              </li>
+              <li>
+                <a href="./about.html">About Us</a>
+              </li>
+              <li>
+                <a href="./index.html#how_work">How It Works</a>
+              </li>
+              <li>
+                <a href="./contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Mobile-device Menu  -->
+      </div>
+      <!-- Navigation  -->
+    </header>
+
+    <main>
+      <!-- Break barrier  -->
+      <div class="break-barrier-wrapper">
+        <div class="container-fluid">
+          <div class="max-width">
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-xl-5">
+                <div class="break-left" id="break-left">
+                  <h3>
+                    Break the barrier <br />
+                    of <span>hiring!</span>
+                  </h3>
+                  <p id="para">
+                    A disruptive recruitment platform where experts can become
+                    recruiters and employers can get quality candidates who are
+                    verified, screened and endorsed by trusted experts in their
+                    fields.
+                  </p>
+                  <div class="buttons-wrapper">
+                    <a href="#how_work">Find out more</a>
+                    <span data-toggle="modal" data-target="#openyoutubevideo">
+                      <i class="fas fa-play"> </i> &nbsp;Watch explainer video
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 col-xl-7">
+                <div class="break-right" id="break-right">
+                  <img
+                    src="./assets/images/brake.png"
+                    class="small-break"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Break barrier  -->
+      <!-- Moda Video  -->
+      <div
+        class="modal fade"
+        id="openyoutubevideo"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-lg modal-dialog-centered"
+          role="document"
+        >
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/MCdfF-fiRG4"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Moda Video  -->
+
+      <!-- Categories  -->
+      <div class="category-wrapper" id="category">
+        <img src="./assets/images/dots-vector.png" class="left" alt="" />
+        <img src="./assets/images/dots-vector-right.png" class="right" alt="" />
+        <div class="container-fluid">
+          <div class="max-width">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mycard">
+                  <a href="https://employer.expertscircle.io/">
+                    <div class="mycard-inner mycard-inner-first">
+                      <div class="mycard-left">
+                        <div class="image">
+                          <img src="./assets/images/emplyo.png" alt="..." />
+                        </div>
+                      </div>
+                      <div class="mycard-right">
+                        <h5>Employers</h5>
+                        <p class="get">
+                          <span>Hire</span> best vetted<br />
+                          candidates
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- Small  -->
+                <div class="mysmallcard">
+                  <a href="https://experts.expertscircle.io/">
+                    <div class="card-border">
+                      <div class="card_left">
+                        <img
+                          src="./assets/images/emplyo.png"
+                          class="icon-block"
+                          alt="..."
+                        />
+                        <!-- <img
+                        src="./assets/images/box-bg-1.png"
+                        alt="img"
+                        class="img-fluid icon-none"
+                      /> -->
+                      </div>
+                      <div class="card_right">
+                        <h5 class="">Employers</h5>
+                        <p class="get">
+                          <span>Hire</span> best vetted candidates
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- Small  -->
+              </div>
+              <div class="col-md-6">
+                <div class="mycard">
+                  <a href="https://candidate.expertscircle.io/">
+                    <div class="mycard-inner">
+                      <div class="mycard-left">
+                        <div class="image">
+                          <img
+                            src="./assets/images/expet.png"
+                            class="icon-block"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                      <div class="mycard-right">
+                        <h5>Experts</h5>
+                        <p class="get">
+                          Join as an <span>Expert <br />recruiter</span>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- Small  -->
+                <div class="mysmallcard">
+                  <a href="https://candidate.expertscircle.io/home?type=expert">
+                    <div class="card-border">
+                      <div class="card_left">
+                        <img
+                          src="./assets/images/expet.png"
+                          class="icon-block icon-small"
+                          alt="..."
+                        />
+                        <!-- <img
+                        src="./assets/images/box-bg-2.png"
+                        alt="img"
+                        class="img-fluid icon-none icon-small"
+                      /> -->
+                      </div>
+                      <div class="card_right">
+                        <h5 class="card-title">Experts</h5>
+                        <p class="get">
+                          Join as an <span>Expert <br />recruiter</span>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- Small  -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Categories  -->
+      <!-- How Works  -->
+      <div class="how-works-wrapper" id="how_work">
+        <div class="container-fluid how-works-inner">
+          <div class="max-width">
+            <div class="how-works-header">
+              <h3>How it <span>works</span></h3>
+              <p>
+                In Experts Circle, a candidate placement can be driven either by
+                an expert sourcing a job for one of his company connections or
+                by a hiring manager of a company posting a job on the platform.
+              </p>
+            </div>
+            <div class="row margin-botom">
+              <div class="col-md-6">
+                <div class="experts">
+                  <div class="small-device-img">
+                    <img src="./assets/images/how-work.png" alt="" />
+                  </div>
+                  <h5>Experts</h5>
+                  <div class="small-border"></div>
+                  <p>
+                    Let’s imagine, Tim, a Software engineer who has recently
+                    learnt about our platform and discovers a job vacancy in the
+                    current company he is working for.
+                  </p>
+                  <p>
+                    He registers in the Candidate application and recommends the
+                    vacancy to a couple of his professional connections best
+                    suitable for the role. Having worked in the same company Tim
+                    was also known to the hiring manager.
+                  </p>
+                  <p>
+                    Using robust technology solutions our platform verifies both
+                    the recommender and candidate as well as it validates the
+                    recommendation before it is sent to the hiring manager.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="expert-image">
+                  <img src="./assets/images/work-right.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="employers-image">
+                  <img src="./assets/images/work-img-2.png" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="employers">
+                  <h5>Employers</h5>
+                  <div class="small-border"></div>
+                  <p>
+                    The platform has verified experts from many disciplines,
+                    once a hiring manager posts a job, the most relevant experts
+                    will get notified to fulfill this role. Once interested
+                    experts pick up the request, the hiring manager will start
+                    to receive top recommendations of vetted and verified
+                    candidates for the job. The manager will also be able to see
+                    the success ratings of these recruiters (experts) if they do
+                    not already know them.
+                  </p>
+                  <p>
+                    In either flow, the hiring manager will have very high
+                    conviction on the candidates forwarded by these recommender
+                    experts. The hiring manager then has the choice to view the
+                    profiles of the recommended candidates, shortlist them for
+                    interview and make job offers, signing electronic contracts
+                    right from the dashboard of the employer web application.
+                  </p>
+                  <p>
+                    The platform keeps a small percentage but passes the rest of
+                    remuneration earned from each successful hiring to the
+                    recommender expert and some of which goes to the candidate
+                    too.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- How Works  -->
+      <!-- High level Work Flow  -->
+      <div class="high-level-work-flow-wrapper" id="work_flow">
+        <img src="./assets/images/dots-vector-right.png" class="right" alt="" />
+        <div class="container">
+          <div class="top">
+            <h3>High level work <span>flow</span></h3>
+            <p>
+              The following diagram should visualise the flow of the potential
+              events that will take place for a successful recommendation which
+              can be triggered by an expert recommending a candidate or by an
+              employer posting a job.
+            </p>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="max-width">
+            <img class="big_img" src="./assets/images/flow-main.svg" alt="" />
+          </div>
+          <!-- Bootstrap Tabs  -->
+          <div class="tabs-button">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link tabs-left active"
+                  id="pills-home-tab"
+                  data-toggle="pill"
+                  href="#pills-home"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                  >Expert's Flow</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link tabs-right"
+                  id="pills-profile-tab"
+                  data-toggle="pill"
+                  href="#pills-profile"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                  >Employer's Flow</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <!-- Expert's Flow  -->
+              <div class="small-device-width">
+                <div class="max-width">
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-right">
+                      <img src="./assets/images/how1.png" alt="" />
+                    </div>
+                    <div class="para para-1">
+                      <p>An expert registers to become a recruiter</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-left">
+                      <img src="./assets/images/how2.png" alt="" />
+                    </div>
+                    <div class="para para-2">
+                      <p>Expert gets verified</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-right">
+                      <img src="./assets/images/how3.png" alt="" />
+                    </div>
+                    <div class="para para-3">
+                      <p>Source a job</p>
+                    </div>
+                  </div>
+                  <div class="box mt-5">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-left">
+                      <img src="./assets/images/how4.png" alt="" />
+                    </div>
+                    <div class="para para-4">
+                      <p>the expert recommend the shortlisted candidates</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-right">
+                      <img src="./assets/images/how5.png" alt="" />
+                    </div>
+                    <div class="para para-5">
+                      <p>Candidates accept recommendation</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-left">
+                      <img src="./assets/images/how6.png" alt="" />
+                    </div>
+                    <div class="para para-6">
+                      <p>Employer receive recommendations</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-right">
+                      <img src="./assets/images/how7.png" alt="" />
+                    </div>
+                    <div class="para para-7">
+                      <p>Employer interviews shortlisted candidates</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-left">
+                      <img src="./assets/images/how8.png" alt="" />
+                    </div>
+                    <div class="para para-8">
+                      <p>Job offer</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-right">
+                      <img src="./assets/images/how9.png" alt="" />
+                    </div>
+                    <div class="para para-9">
+                      <p>Schedule Payment</p>
+                    </div>
+                  </div>
+                  <div class="box mt-5">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-left">
+                      <img src="./assets/images/how10.png" alt="" />
+                    </div>
+                    <div class="para para-10">
+                      <p>Payment sent to recruiter</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Arrow  -->
+                <img src="./assets/images/Line 21.png" class="line" alt="" />
+                <!-- Arrow  -->
+              </div>
+              <!-- Expert's Flow  -->
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+              <!-- Employer's Flow  -->
+              <div class="small-device-width">
+                <div class="max-width">
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-left">
+                      <img src="./assets/images/how11.png" alt="" />
+                    </div>
+                    <div class="para para-1">
+                      <p>An exmployer registers</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-right">
+                      <img src="./assets/images/how12.png" alt="" />
+                    </div>
+                    <div class="para para-2">
+                      <p>Verified employer post jobs</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-left">
+                      <img src="./assets/images/how13.png" alt="" />
+                    </div>
+                    <div class="para para-3">
+                      <p>Platform notifies relavant experts</p>
+                    </div>
+                  </div>
+                  <div class="box mt-5">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-right">
+                      <img src="./assets/images/how4.png" alt="" />
+                    </div>
+                    <div class="para para-4">
+                      <p>the expert recommend the shortlisted candidates</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-left">
+                      <img src="./assets/images/how5.png" alt="" />
+                    </div>
+                    <div class="para para-5">
+                      <p>Candidates accept recommendation</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-right">
+                      <img src="./assets/images/how6.png" alt="" />
+                    </div>
+                    <div class="para para-6">
+                      <p>Employer receive recommendations</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-left">
+                      <img src="./assets/images/how7.png" alt="" />
+                    </div>
+                    <div class="para para-7">
+                      <p>Employer interviews shortlisted candidates</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-right">
+                      <img src="./assets/images/how8.png" alt="" />
+                    </div>
+                    <div class="para para-8">
+                      <p>Job offer</p>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-left">
+                      <img src="./assets/images/how9.png" alt="" />
+                    </div>
+                    <div class="para para-9">
+                      <p>Schedule Payment</p>
+                    </div>
+                  </div>
+                  <div class="box mt-5">
+                    <i class="fa fa-caret-down mycarret" aria-hidden="true"></i>
+                    <div class="img-right">
+                      <img src="./assets/images/how10.png" alt="" />
+                    </div>
+                    <div class="para para-10">
+                      <p>Payment sent to recruiter</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Arrow  -->
+                <img src="./assets/images/Line 21.png" class="line" alt="" />
+                <!-- Arrow  -->
+              </div>
+              <!-- Employer's Flow  -->
+            </div>
+          </div>
+          <!-- Bootstrap Tabs  -->
+        </div>
+      </div>
+      <!-- High level Work Flow  -->
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="container-fluid mb-3">
+          <div class="max-width">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="footer-left">
+                  <a href="./index.html"
+                    ><img
+                      src="./assets/images/flogo.svg"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <p>
+                    A private limited company registered in the United Kingdom,
+                    company registration number is 12193805.
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                <div class="menu company">
+                  <h6>Company</h6>
+                  <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./index.html#work_flow">How It Works</a></li>
+                    <li><a href="#">Faq</a></li>
+                    <li><a href="./contact-us.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                <div class="menu legal">
+                  <h6>Legal</h6>
+                  <ul>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Cookie policy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="connected menu">
+                  <h6>Connected With Us</h6>
+                  <a href="javascript: void(0)"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                  <a href="https://twitter.com/expertscircle" target="_blank"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/company/74367916/admin/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-wrapper">
+          <p>Copyright &copy; 2021 Experts Circle. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Jquery Js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap Js-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <!-- counter up  -->
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <!-- counter up  -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!--AOS Js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Owl Carouse js-->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Custom Js-->
+    <script src="js/custom.js"></script>
+  </body>
+</html>

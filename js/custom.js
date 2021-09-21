@@ -1,23 +1,4 @@
-$('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav:false,
-  autoplay:true,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:1
-      },
-      1000:{
-          items:2
-      }
-  }
-})
-
-
- $(document).ready(function(){
+$(document).ready(function(){
     $("#barguricon").click(function(){
         if( $('#menus').css({top: "-200%"})){
             $('#menus').css({
